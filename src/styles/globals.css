@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'ORC';
+	src: url(../assets/OCR_A_Std_Regular.ttf) format('truetype');
+}
+
+html, body {
+  font-family: 'ORC';
+  color: #fff;
+  background: url("../assets/bg-hd.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#__next {
+  height: 100%;
+  width: 100%;
+
+}
